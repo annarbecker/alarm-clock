@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <head>
     <link rel="stylesheet" href="build/css/vendor.css">
     <script src="build/js/vendor.min.js"></script>
     <script type="text/javascript" src="build/js/app.js"></script>
     <title>Template</title>
   </head>
-  </head>
   <body>
+    <h3>Current Time:</h3>
+    <h3 id="time"></h3>
+    <form id="set-alarm">
+      <label>Set Alarm</label>
+      <input type="time" id="alarmTime">
+      <button type="submit" id="set-time" class="btn btn-success">Set</button>
+    </form>
+    <h3>Your alarm has been set for:</h3>
+    <h4 id="alarm-input"></h4>
+    <h1 id="alarm-ring">ALARM!</h1>
   </body>
 </html>
